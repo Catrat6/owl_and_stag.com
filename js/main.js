@@ -32,7 +32,7 @@ function loader() {
 function pagepiling() {
   if ($('.js-sections').length) {
     $('.js-sections').pagepiling({
-      anchors: ['home', 'about', 'skills', 'projects', 'team', 'contact'],
+      anchors: ['home', 'about', 'skills', 'projects', 'contact'],
       menu: '#navbar',
       loopBootom: true,
       loopTop: true,
